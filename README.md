@@ -20,7 +20,9 @@ Types of data:
 The initial data frames were separate. For the analysis, the city_data and ride_data were merged using a LEFT JOIN and the pyber_data_df was created.
 
 The PyBer summary df has a few components: Total Rides, Total Drivers, Total Fares, Avg Fare per Ride, and Avg Fare per Drivers.
+
 ![Pyber Summary](https://github.com/nidhipandya/PyBer_Analysis/blob/main/analysis/Pyber_Summary_df.PNG)
+
 - As shown in the chart above, although rural cities have the fewest number of drivers and fares, the average fare per ride and average fare per driver is the highest among all three city types.  
 - It seems that the oversaturation of drivers and fares in the urban cities have an inverse affect to the cost per share and the fare per driver. The low distance between destinations is probably another cause of lower fares per driver.
 - The suburban fare totals are after the urban totals due to the distance between destination being further than urban cities.  Even though there are less drivers than the urban areas, the distance plays a key part in the fare amount.
